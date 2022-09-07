@@ -1,0 +1,99 @@
+/*Main page Container <*/
+    /*Header Container <*/
+        .titleT, .title {
+            margin: 7px 0px 2px 20px;  
+            font-family: 'Great Vibes', cursive;
+            font-style: italic;
+            font-size: 30px;
+            letter-spacing: 8px;
+        }
+    /*Header Container >*/
+
+
+    /*Multi-Container <*/
+        .info{
+            font-size: 20px;
+        }
+    /*Multi-Container >*/
+
+
+    /*Informatii Container <*/
+        .info.nume, .info.prenume, .info.email, .info.gen, .an, .luna, .zi, .ora{
+            height: 2em;
+            width: 30em;
+            border: 2px solid #028482;
+            border-radius: 0.5em;
+            font-size: 1em;
+            background-color: rgb(225, 255, 237);
+        }
+        .mainPage{
+            margin-left: 11%;
+        }
+        .secondPage{
+            margin-left: 11%;
+        }
+        
+
+        .info.gen, .info.gen:focus{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 450px;
+        }
+    /*Informatii Container >*/
+
+
+    /*Serviciu + Plata Container >*/
+    
+        .serviciu_text,
+        .metoda_plata_text,
+        .info_pers {
+            margin-bottom: 2px;
+            font-weight: 700;
+            font-size: 28px;
+            color: black;
+            text-decoration: underline;
+        }
+    /*Serviciu + Plata Container <*/
+
+
+    /*Data Container >*/
+        .data_text,
+        .data_programarii_text {
+            margin-bottom: 2px;
+            font-weight: 700;
+            font-size: 23px;
+            color: black;
+            text-decoration: underline;
+        }
+    
+        .zi,
+        .luna,
+        .ora, 
+        .an {
+            font-size: 14px;
+            margin: 5px 2px 5px 2px;
+            width: 150px;
+            height: 35px;
+        }
+        #map{
+            margin-left: 50%;
+            margin-bottom: 25px;
+            transform: translateX(-50%);
+            height: 20em;
+            width: 85%;
+            background-color: black;
+            color: black;
+        }
+        .imgWrap{
+            display: flex;
+            justify-content: center;
+        }
+        .resizeImg{
+            margin-bottom: 0;
+            margin-left: 5%;
+            margin-right: 5%;
+            height: 80%;
+            width: 70%;
+        }
+    /*Data Container <*/
+/*Main Page Container >*/
