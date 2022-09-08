@@ -306,7 +306,7 @@ body{
 /*Actual body >*/
 
 /*PHONES*/
-@media (max-width: 641px){
+@media (max-width: 1024px){
 /*Main page Container <*/
     /*Header Container <*/
     .titleT, 
@@ -415,7 +415,7 @@ body{
 }
 /*PHONES*/
 /*TABLETS/PC*/
-@media (min-width: 642px){
+@media (min-width: 1025px){
 /*Main page Container <*/
     /*Header Container <*/
     .titleT, .title {
