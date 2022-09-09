@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Salonul Massage" />
+    <link rel="stylesheet" href="./dist/cross-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./dist/about-dist.js" defer></script>
+    <script src="./dist/g-map.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Massage Ploiesti - Despre noi</title>
+</head>
+<body>
+    <ul>
+        <li class="titleT title">Massage</li>
+        <li style="opacity: 0;" class="line_break pc_marg">.</li><br><br>
+        <li class="programare pc_marg"><a href="index.html">Programeaza-te</a></li>
+        <li class="despre_noi active pc_marg"><a>Despre noi</a></li>
+    </ul>
+    <div class="secondPage">
+        <div class="contact">
+            <p class="tel_num">Pentru intrebari va rugam sa ne contactati:</p>
+            <ul class="contactX">
+                <p class="phoneNum" style="margin-bottom:5px;margin-left:5px;"><span style="color:black;"><strong>&#9679;</strong></span> +40-1234-5678-9</p>
+                <p class="emailAdress" style="margin-top:5px;margin-left:5px;"><span style="color:black;"><strong>&#9679;</strong></span> email@gmail.com</p>
+            </ul>
+            <p class="locatie">Ne puteti gasi in localitatea Strejnicu, pentru referinta, verificati harta:</p>
+            <br>
+        </div>
+        <div id="map"></div>
+        <div class="imgWrap">
+            <img src="./dist/srl_80.jpg" alt="SRL" class="resizeImg">
+        </div>
+    </div>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-fs9R5apksupNHBHzBAUyegC36dEnD7Y&callback=initMap"></script>
+</body>
+</html>

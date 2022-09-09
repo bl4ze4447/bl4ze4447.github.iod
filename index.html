@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Salonul Massage" />
+    <script src="https://kit.fontawesome.com/3bda5f02ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/cross-styles.css">
+    <script type="text/javascript" src="./dist/full-stack.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Massage Ploiesti - Programare</title>
+</head>
+<body>
+    <ul>
+        <li class="titleT title">Massage</li>
+        <li style="opacity: 0;" class="line_break pc_marg">.</li><br><br>
+        <li class="programare active pc_marg"><a>Programeaza-te</a></li>  
+        <li class="despre_noi pc_marg"><a href="about.html">Despre noi</a></li>
+    </ul>
+    <div class="mainPage">
+        <div class="informatii_util">
+            <div class="serviciu_dorit" style="margin-top:30px;">
+                <span class="info_pers">Informatii personale</span>
+            </div>
+            <div class="center_info">
+                <p class="legend" style="margin:30px 0 0 0;padding-right:10px;;font-weight:bolder;font-size: 14px;">Nume</p>
+                <input type="text" name="nume" class="info nume" placeholder=" Ex: Ioan">
+                <p class="legend" style="margin: 5px 0 0 0;padding-right:10px;;font-weight:bolder;font-size: 14px;">Prenume</p>
+                <input type="text" name="prenume" class="info prenume" placeholder=" Ex: Georgian">
+                <p class="legend" style="margin: 5px 0 0 0;padding-right:10px;font-weight:bolder;font-size: 14px;">Email</p>
+                <input type="email" name="email" class="info email" placeholder=" Ex: georgian@gmail.com"> 
+            </div>
+            <div style="display: grid;display:-ms-grid;display:-moz-grid;text-align: justify;justify-content: center;margin: 0% 10% 0% 10%;">
+                <p class="informare">In cazul in care dintr-un motiv trebuie sa va anulam programarea, va vom informa cu un email catre adresa dvs.</p>
+            </div>
+        </div>
+        <div class="gen_selectat">
+            <select class="info gen">
+                    <option value="masculin">Barbat</option>
+                    <option value="feminin">Femeie</option>
+            </select>
+        </div>
+        <div>
+            <div class="serviciu_dorit" style="margin-top:30px;">
+                <span class="serviciu_text">Serviciul dorit:</span>
+            </div>
+            <label>
+                <input type="checkbox" class="info serviciu nr1 chk" name="serviciu_oferit" value="serviciu_oferit_1" checked> <p class="info rot">SERVICIU_OFERIT 1 - <p class="pret n1" id="150 RON" price="1" style="display:inline;"><span class="info_serv"> ??? RON</span></p></p>
+            </label>
+            <p class="info descriere">Descriere serviciu 1</p>
+            <label>
+                <input type="checkbox" class="info serviciu nr2 chk" name="serviciu_oferit" value="serviciu_oferit_2"> <p class="info rot">SERVICIU_OFERIT 2 - <p class="pret n2 ts_db_2" id="200 RON" style="display:inline;"><span class="info_serv"> ??? RON</span></p></p>
+            </label>
+            <p class="info descriere">Descriere serviciu 2</p>
+        </div>
+        <label class="info metoda_plata">
+            <div class="metoda_plata_dorita" style="margin-top:30px;">
+                <span class="metoda_plata_text">Metoda de plata</span>
+            </div>
+            <input type="radio" class="info plata cash radio" name="plata" value="cash" checked> <p class="info rot">Plata numeral</p>
+        </label>
+        <div class="programare_btn" style="margin-top: 5%;">
+            <div class="selectare_data">
+                <div class="data_programarii">
+                    <span class="data_programarii_text">Data Programarii</span>
+                </div>
+                <br>
+                <select class="an">
+                </select>
+                <select class="luna">
+                </select>
+                <br>
+                <select class="zi">
+                </select>
+                <select class="ora" style="margin-top:3px;">
+                </select>
+            </div>  
+            <div class="selectare_text">
+                <br>
+                <br>
+                <p class="data_text">Doriti programare pentru data de</p>
+                <p class="data_text_sec"></p><br>
+            </div>
+            <input type="button" value="Programeaza-ma" class="send_btn">
+            <i class="fa-solid fa-check-double"></i>
+        </div>
+    </div>
+</body>
+</html>
